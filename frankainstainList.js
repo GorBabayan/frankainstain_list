@@ -114,7 +114,7 @@ class FrankensteinList {
         result.push(cur.item);
         cur = cur.greater;
       }
-      console.log('Ascending Order:', result);
+      console.log("Ascending Order: ", result);
     }
   
     printDesc() {
@@ -124,7 +124,7 @@ class FrankensteinList {
         result.push(cur.item);
         cur = cur.lesser;
       }
-      console.log('Descending Order:', result);
+      console.log("Descending Order: ", result);
     }
   }
   
